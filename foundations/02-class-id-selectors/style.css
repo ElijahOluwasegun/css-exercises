@@ -4,7 +4,7 @@
 }
 
 #even {
-    color: blue;
+    color: #3232ff;
     font-size: 36px;
 }
 .odd.two {
@@ -12,7 +12,7 @@
 }
 
 #even2 {
-    background-color: green;
+    background-color: hsl(120, 100%, 28%);
     font-size: 24px;
     font-weight: bold;
 }
