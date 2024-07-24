@@ -1,18 +1,20 @@
 .odd {
-    background-color: rgb(255, 219, 225);
-    font-family: Verdana, DejaVu Sans, sans-serif;
-}
-
-#even {
-    color: #3232ff;
-    font-size: 36px;
-}
-.odd.two {
-    font-size: 24px;   
-}
-
-#even2 {
-    background-color: hsl(120, 100%, 28%);
+    background-color: rgb(255, 167, 167);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+  }
+  
+  .adjust-font-size {
     font-size: 24px;
+  }
+  
+  #two {
+    color: #0000ff;
+    font-size: 36px;
+  }
+  
+ 
+  #four {
+    background-color: hsl(120, 100%, 75%);
     font-weight: bold;
-}
+  }
+  
