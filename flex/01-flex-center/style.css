@@ -6,6 +6,9 @@
 }
 
 .box {
+  display: flex;
+  flex-direction: row;
+  
   background: palevioletred;
   font-weight: bold;
   text-align: center;
