@@ -1,4 +1,6 @@
 .header  {
+  display: flex;
+  justify-content: center;
   font-family: monospace;
   background: papayawhip;
 }
@@ -13,6 +15,9 @@
 
 ul {
   /* this removes the dots on the list items*/
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
   list-style-type: none;
 }
 
