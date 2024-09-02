@@ -2,8 +2,8 @@
   display: flex;
   font-family: monospace;
   background: papayawhip;
-  margin: 0px;
-  padding: 0px;
+  margin: 0em;
+  padding: 0em;
 }
 
 .logo {
@@ -13,16 +13,16 @@
   align-content: center;
   color: tomato;
   background: white;
-  padding: 4px 25px;
-  margin: 5px 0px 5px auto;
+  padding: 0.125em 0.7em;
+  margin: 0.1625em 0em 0.1625em auto;
 }
 
 ul {
   /* this removes the dots on the list items*/
   display: flex;
   /* background-color: black; used this to understand which css selector was working for the lists */
-  margin: 20px 0px 20px 0px;
-  padding: 0px;
+  margin: 1.25em 0em 1.25em 0em;
+  padding: 0em;
   list-style-type: none;
 }
 
@@ -32,9 +32,9 @@ a {
   justify-content: space-around;
   font-size: 22px;
   background: white;
-  padding: 8px;
-  margin-left: 5px;
-  margin-right: 5px;
+  padding: 0.3em;
+  margin-left: 0.3005em;
+  margin-right: 0.3005em;
   /* this removes the line under the links */
   text-decoration: none;
 }
