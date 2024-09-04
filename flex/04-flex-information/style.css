@@ -5,6 +5,7 @@ body {
 img {
   width: 100px;
   height: 100px;
+  padding: 52px;
 }
 
 .title {
@@ -12,14 +13,21 @@ img {
   justify-content: center;
   font-size: 36px;
   font-weight: 900;
+  padding: 32px;
 }
 
 .body_sec {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: nowrap;
+  align-content: end;
+}
+
+.body_sec .text {
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  
 }
 
 /* do not edit this footer */
