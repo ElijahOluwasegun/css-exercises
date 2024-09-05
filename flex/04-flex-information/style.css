@@ -3,9 +3,11 @@ body {
 }
 
 img {
+  display: flex;
   width: 100px;
   height: 100px;
-  padding: 52px;
+  margin: 0px;
+  padding: 20px 0px;
 }
 
 .title {
@@ -20,14 +22,16 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: nowrap;
-  align-content: end;
+  flex-wrap: wrap;
+  background-color: orange;
+  padding: 52px;
 }
 
-.body_sec .text {
+.text {
   display: flex;
-  flex-direction: column;
+  align-self: flex-end;
   flex-wrap: wrap;
+  background-color: blue;
 }
 
 /* do not edit this footer */
