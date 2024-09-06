@@ -41,8 +41,9 @@ body {
   display: flex;
   align-items: center;
   margin-left: 0px;
-  margin-right: auto;
+  margin-right: 0px;
   justify-content: center;
+  align-self: flex-start;
   padding: 0px;
 }
 
