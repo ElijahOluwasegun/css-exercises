@@ -17,7 +17,7 @@ body {
 
 .head {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   /* background-color: #333; */
   gap: 10px;
 }
@@ -30,6 +30,7 @@ body {
   padding: 10px;
 }
 
+
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -41,9 +42,8 @@ body {
   display: flex;
   align-items: center;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: auto;
   justify-content: center;
-  align-self: flex-start;
   padding: 0px;
 }
 
@@ -75,10 +75,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: center;
   border: 1px solid #eee;
-  padding: 0;
-  flex-wrap: wrap;
-  text-wrap: wrap;
   padding: 0px;
   margin: 0px;
 }
