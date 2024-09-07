@@ -7,10 +7,20 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.header {
+  display: flex;
+}
+
+/* .header .left-links .right-links {
+
+} */
+
 img {
   width: 600px;
 }
+
 .left-links, .right-links {
+  display: flex;
   list-style-type: none;
 }
 
@@ -31,3 +41,8 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.footer {
+  display: flex;
+}
+
