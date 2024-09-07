@@ -9,6 +9,7 @@ body {
 
 .header {
   display: flex;
+  gap: 16px;
 }
 
 /* .header .left-links .right-links {
@@ -22,10 +23,18 @@ img {
 .left-links, .right-links {
   display: flex;
   list-style-type: none;
+  gap: 16px;
+  padding: 10px 20px 10px 20px;
 }
 
 a, .left-links .right-links {
   text-decoration: none;
+}
+
+.right-links {
+  display: flex;
+  margin-right: 0px;
+  margin-left: auto;
 }
 
 button {
@@ -44,5 +53,6 @@ input {
 
 .footer {
   display: flex;
+  background-color: #eeeeee;
 }
 
