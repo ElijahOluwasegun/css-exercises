@@ -10,6 +10,13 @@ body {
 img {
   width: 600px;
 }
+.left-links, .right-links {
+  list-style-type: none;
+}
+
+a, .left-links .right-links {
+  text-decoration: none;
+}
 
 button {
   font-family: Roboto, sans-serif;
