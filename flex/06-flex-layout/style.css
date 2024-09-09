@@ -44,7 +44,7 @@ a, .left-links .right-links {
 }
 
 .content {
-  padding: 50px 0px;
+  padding: 10px 0px;
 }
 
 button {
@@ -77,7 +77,14 @@ input {
 
 .footer {
   display: flex;
-  flex-direction: column;
   background-color: #eeeeee;
 }
 
+.footer_end {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_end .footer {
+  flex: 1 1 auto;
+}
