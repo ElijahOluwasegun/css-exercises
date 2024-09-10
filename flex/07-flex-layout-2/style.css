@@ -18,6 +18,11 @@ body {
   color: white;
 }
 
+.body {
+  display: flex;
+  flex-direction: row;
+}
+
 .footer {
   display: flex;
   align-items: center;
@@ -28,14 +33,26 @@ body {
 }
 
 .sidebar {
+  display: flex;
   width: 300px;
+  padding: 16px;
+  flex-shrink: 0;
   background: royalblue;
   box-sizing: border-box;
 }
 
+a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
 .card {
-  flex-direction: row;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.sidecard {
+  padding: 48px;
 }
